@@ -1,2 +1,2 @@
-# react-node
-React on the frontend with Node and Mongo
+# learn-fullstack-javascript
+Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js

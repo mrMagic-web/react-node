@@ -14,7 +14,7 @@ class ContestPreview extends React.Component {
         <div className="link category-name" onClick={this.handleClick}>{this.props.categoryName}</div>
         <div className="contest-name">{this.props.contestName}</div>
       </div>
-    )
+    );
   }
 } 
 
@@ -23,6 +23,6 @@ ContestPreview.propTypes = {
   categoryName: PropTypes.string.isRequired,
   contestName: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired
-}
+};
 
 export default ContestPreview;

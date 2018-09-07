@@ -1,19 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { Component, PropTypes } from 'react';
 
-class Contest extends React.Component {
-
+class Contest extends Component {
   render() {
     return (
       <div className="Contest">
-        <div className="link category-name">{this.props.id}</div>
+        {this.props.description}
       </div>
     );
   }
-} 
+}
 
 Contest.propTypes = {
-  id: PropTypes.number.isRequired
+  description: PropTypes.string.isRequired
 };
 
 export default Contest;
